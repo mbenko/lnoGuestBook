@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Manage Windows Azure @ViewBag.EnvName</h1>
+    @*<h4>Server: <i>@Environment.MachineName</i></h4>*@
+    <h4>Domain: <i>@Request.Url.Host</i> </h4>
+    <p class="lead">Windows Azure has lots of great features and capabilities. Learn more about what types of services are available by clicking the button below.</p>
+    <p>
+        <a href="http://www.azure.com" class="btn btn-default btn-lg">Learn more &raquo;</a>
+        <a class="btn btn-danger btn-lg" href="/Guests/Create">Sign Guest Book</a>
+        @*<a class="btn btn-info btn-lg" href="/Home">Shop</a>*@
+
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Version 2 - Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
