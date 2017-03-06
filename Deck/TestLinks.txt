@@ -1,0 +1,3 @@
+https://www.codeproject.com/articles/1035961/new-features-in-visual-studio
+https://blogs.msdn.microsoft.com/visualstudioalm/2015/12/10/visual-studio-2015-test-tools-getting-started-content/
+https://www.microway.com.au/microsoft/visual-studio-2015-compare-editions.php

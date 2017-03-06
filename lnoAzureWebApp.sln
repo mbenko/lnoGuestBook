@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lnoAzureWebApp", "lnoAzureW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{57E83EF4-D398-455A-8B63-E521FD61B434}"
 	ProjectSection(SolutionItems) = preProject
+		Deck\AppDevLNO17-AzureRefresh-Edit4b.pptx = Deck\AppDevLNO17-AzureRefresh-Edit4b.pptx
 		..\..\..\Users\LNO User\Documents\TestLinks.txt = ..\..\..\Users\LNO User\Documents\TestLinks.txt
 	EndProjectSection
 EndProject
