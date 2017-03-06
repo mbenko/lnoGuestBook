@@ -37,6 +37,7 @@ namespace lnoAzureWebApp.Controllers
             GuestBookEntry guestBookEntry = db.GuestBookEntries.Find(id);
             if (guestBookEntry == null)
             {
+                Trace.TraceWarning($"{DateTime.UtcNow.ToShortTimeString()} > Guests/Details - WARNING: Not found");
                 return HttpNotFound();
             }
             return View(guestBookEntry);
